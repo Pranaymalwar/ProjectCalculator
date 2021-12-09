@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="testcases.Subtraction">
+        <methods>
+          <include name="f"/>
+          <include name="aftertest"/>
+          <include name="beforetest"/>
+        </methods>
+      </class> <!-- testcases.Subtraction -->
+      <class name="testcases.Division">
+        <methods>
+          <include name="aftertest"/>
+          <include name="beforetest"/>
+          <include name="f"/>
+        </methods>
+      </class> <!-- testcases.Division -->
+      <class name="testcases.Multiplication">
+        <methods>
+          <include name="aftertest"/>
+          <include name="f"/>
+          <include name="beforetest"/>
+        </methods>
+      </class> <!-- testcases.Multiplication -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

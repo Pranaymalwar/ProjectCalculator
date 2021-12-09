@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="6" total="10" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-12-09T08:10:10 IST" name="Suite" finished-at="2021-12-09T08:10:30 IST" duration-ms="20348">
+    <groups>
+    </groups>
+    <test started-at="2021-12-09T08:10:10 IST" name="Test" finished-at="2021-12-09T08:10:30 IST" duration-ms="20348">
+      <class name="testcases.Multiplication">
+        <test-method signature="f()[pri:0, instance:testcases.Multiplication@729d991e]" started-at="2021-12-09T08:10:19 IST" name="f" finished-at="2021-12-09T08:10:23 IST" duration-ms="4082" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- testcases.Multiplication -->
+      <class name="testcases.Addition">
+        <test-method is-config="true" signature="beforetest()[pri:0, instance:testcases.Addition@17497425]" started-at="2021-12-09T08:10:10 IST" name="beforetest" finished-at="2021-12-09T08:10:15 IST" duration-ms="4904" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method signature="f()[pri:0, instance:testcases.Addition@17497425]" started-at="2021-12-09T08:10:15 IST" name="f" finished-at="2021-12-09T08:10:19 IST" duration-ms="3729" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method is-config="true" signature="aftertest()[pri:0, instance:testcases.Addition@17497425]" started-at="2021-12-09T08:10:30 IST" name="aftertest" finished-at="2021-12-09T08:10:30 IST" duration-ms="221" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+      </class> <!-- testcases.Addition -->
+      <class name="testcases.Subtraction">
+        <test-method signature="f()[pri:0, instance:testcases.Subtraction@31fa1761]" started-at="2021-12-09T08:10:23 IST" name="f" finished-at="2021-12-09T08:10:26 IST" duration-ms="3630" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- testcases.Subtraction -->
+      <class name="testcases.Division">
+        <test-method signature="f()[pri:0, instance:testcases.Division@957e06]" started-at="2021-12-09T08:10:26 IST" name="f" finished-at="2021-12-09T08:10:30 IST" duration-ms="3710" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- testcases.Division -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
